@@ -3,13 +3,6 @@
 h1 {
     color: rgba(38, 19, 151, 0.91);
 }
-
-/* @media (max-width: 650px) {
-   .container {
-        text-align: center;
-        display: block;
-    } 
-} */
     
 body {
     color: #0f141e;
@@ -53,6 +46,13 @@ body {
     margin-bottom: 20px;
 }
 
+@media (max-width: 650px) {
+   .info {
+        text-align: center;
+        display: block;
+    } 
+}
+
 .card-conection {
     padding: 10px 15px;
     margin-bottom: 20px;
@@ -85,6 +85,14 @@ body {
     color: #ffffffcd;
     border-radius: 5px;
 }
+
+@media (width: 650px) {
+    .container{
+            display: block;
+            text-align: center;
+        }
+    }
+
 
 a {
    color: #333;    
@@ -238,3 +246,5 @@ a:visited {
         outline: none;
         font-family: inherit;
     }
+
+   
